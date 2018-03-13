@@ -53,17 +53,12 @@ do
            std::cout<<"Try one more time"<<" You have "<<chances<< " more chances\n";
            if(answer>secretNumber) std::cout<<"Secret number is LESS than your answer"<<std::endl;
            if(answer<secretNumber) std::cout<<"Secret number is GREATER than your answer"<<std::endl;
-
-        }
+         }
     }
-
     std::cout<<"Secret number was "<< secretNumber << "\nWanna play again? (y/n): "<<std::endl;
     std::cin>>quit;
 
 }while(quit == 'y' || quit == 'Y');
-
-
-
 
     return 0;
 }
